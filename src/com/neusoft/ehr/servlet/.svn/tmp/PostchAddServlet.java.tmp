@@ -1,0 +1,73 @@
+package com.neusoft.ehr.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Date;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.neusoft.ehr.comm.MyTools;
+import com.neusoft.ehr.entity.Post;
+import com.neusoft.ehr.entity.Postch;
+import com.neusoft.ehr.entity.Staff;
+import com.neusoft.ehr.service.PostService;
+import com.neusoft.ehr.service.PostchService;
+import com.neusoft.ehr.service.StaffService;
+
+public class PostchAddServlet extends HttpServlet {
+
+
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		doPost(request, response);
+	}
+
+
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		Postch postch=new Postch();
+		String empSeq = request.getParameter("empSeq");
+		String empName = MyTools.toChinese(request.getParameter("empName"));
+		String oldPost = request.getParameter("oldPost");
+		String newPost = request.getParameter("newPost");
+		String reason = MyTools.toChinese(request.getParameter("reason"));
+		String ps = MyTools.toChinese(request.getParameter("ps"));
+		String type = MyTools.toChinese(request.getParameter("type"));
+		String year = request.getParameter("year");
+		String month = request.getParameter("month");
+		String day = request.getParameter("day");
+		String time=year+"-"+month+"-"+day;
+		Date trantime= Date.valueOf(time);
+		postch.setEmp_seq(empSeq);
+		postch.setOld_postseq(oldPost);
+		postch.setPostch_postseq(newPost);
+		postch.setReason(reason);
+		postch.setReviews(ps);
+		postch.setTrance_type(type);
+		postch.setTrantime(trantime);
+		
+		PostchService pss =new PostchService();
+		pss.add(postch);
+<<<<<<< .mine
+		request.getRequestDispatcher("/PostChangedServlet.action").forward(request, response);
+=======
+>>>>>>> .r85
+		
+		StaffService ss = new StaffService();
+		Staff s = ss.findBySeq(empSeq);
+		s.setPostSeq(newPost);
+		
+		PostService pse = new PostService();
+		Post post = pse.findBySeq(newPost);
+		s.setPostName(post.getPost_name());
+		
+		ss.update(s);
+		
+		request.getRequestDispatcher("/PostChangedServlet.action").forward(request, response);
+		
+	}
+
+}

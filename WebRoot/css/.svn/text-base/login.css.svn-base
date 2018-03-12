@@ -1,0 +1,92 @@
+#t3zrydiv1
+{
+	text-align:left;
+	padding-left:800px;
+}
+
+#t3zrydiv2
+{
+	width: 800px;
+	height: 500px;
+	margin:auto;
+}
+#t3zrydiv3
+{
+	margin: 30px 0 0 30px;
+}
+#t3zrydiv4
+{
+	text-align:left;
+	padding-left:100px;
+}
+
+header{
+	text-align: center;
+}
+
+footer{
+	margin-top: 100px;
+	font-size: 12px;
+}
+
+div #myModal{
+	width:500px;
+	height:330px;
+}
+.modal-header,
+.modal-body{
+	text-align:center;
+}
+.modal-body td{
+	height:40px;
+	width:150px;
+	background-color:#fff;
+}
+#t3zrydivloginput4,#t3zrydivloginput5,#t3zrydivloginput6,#t3zrydivloginput7,#t3zrydivloginput8,#t3zrydivloginput9
+{
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+#t3zrydivloginput2,#t3zrydivloginput3
+{
+	margin-right: 20px;
+	margin-top:10px;
+}
+#t3zrydivloginput1
+{
+	margin-right: 20px;
+	margin-top:10px;
+	padding-left:40px;
+}
+#t3zrydivloginput0
+{
+	margin-right: 20px;
+	margin-top:10px;
+}
+#questionselect
+{
+	width: 185px;
+}
+
+#mydiv1,#mydiv2,#mydiv3
+{
+	width: 400px;
+	height: 150px;
+}
+#myModal1body
+{
+	text-align:left;
+	padding-left:100px;
+	
+}
+
+#inputdiv1,#inputdiv2,#inputdiv3,#inputdiv4,#inputdiv5
+{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+div #myModal1{
+	width:520px;
+	height:250px;
+}

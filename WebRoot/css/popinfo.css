@@ -1,0 +1,13 @@
+.popinfo #myModal{
+	width:260px;
+}
+.modal-header{
+	text-align:center;
+}
+.popinfo img{
+	float:left;
+}
+.popinfo h4{
+	margin-top:15px;
+	padding-left:80px;
+}

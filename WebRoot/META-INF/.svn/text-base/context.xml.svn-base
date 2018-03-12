@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+  <Resource
+    name="jdbc/ums"
+    type="javax.sql.DataSource"    
+    username="root"
+    password="root"
+    url="jdbc:mysql://localhost:3306/ehr"
+    driverClassName="com.mysql.jdbc.Driver"
+    maxIdle="20"
+    maxWait="5000"
+    maxActive="50"/>
+  <WatchedResource>WEB-INF/web.xml</WatchedResource>
+</Context>

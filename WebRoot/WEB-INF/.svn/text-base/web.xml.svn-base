@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+  <servlet>
+    <servlet-name>UserUnameCheckServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.UserUnameCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.UserLoginServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>UserAddServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.UserAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserRegistServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.UserRegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StaffAddServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.StaffAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StaffUpdateServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.StaffUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeptInfoServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.DeptInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeptAddServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.DeptAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeptBatchDelServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.DeptBatchDelServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeptUpdateServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.DeptUpdateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>PostAddServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.PostAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserListServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.UserListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserUnloginServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.UserUnloginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserDelServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.UserDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserActiveServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.UserActiveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StaffFindServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.StaffFindServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostInfoServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.PostInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeptUpdate2Servlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.DeptUpdate2Servlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeptSeleServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.DeptSeleServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>PostUpdServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.PostUpdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostUpdateServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.PostUpdateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>StaffEntryInfoServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.StaffEntryInfoServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>PostDelServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.PostDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostFindServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.PostFindServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostStaffServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.PostStaffServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StaffCheckServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.StaffCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StaffProbationServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.StaffProbationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StaffFireServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.StaffFireServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepChFindServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.DepChFindServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>UserPageListServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.UserPageListServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepchServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.DepchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepchangeServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.DepchangeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostchServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.PostchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostchAddServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.PostchAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostChangedServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.PostChangedServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StaffPassedServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.StaffPassedServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StaffFiredServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.StaffFiredServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepChangedServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.DepChangedServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostchFindServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.PostchFindServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserAnswerCheckServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.UserAnswerCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JumpToLogin</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.JumpToLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StaffMaintainServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.StaffMaintainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StaffFireingServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.StaffFireingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReportDepchServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.ReportDepchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StaffReviewServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.StaffReviewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserPwdChangeServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.UserPwdChangeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostcfReServlet</servlet-name>
+    <servlet-class>com.neusoft.ehr.servlet.PostcfReServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserUnameCheckServlet</servlet-name>
+    <url-pattern>/UserUnameCheckServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/UserLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserAddServlet</servlet-name>
+    <url-pattern>/UserAddServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegistServlet</servlet-name>
+    <url-pattern>/UserRegistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffAddServlet</servlet-name>
+    <url-pattern>/StaffAddServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffUpdateServlet</servlet-name>
+    <url-pattern>/StaffUpdateServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptInfoServlet</servlet-name>
+    <url-pattern>/DeptInfoServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptAddServlet</servlet-name>
+    <url-pattern>/DeptAddServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptBatchDelServlet</servlet-name>
+    <url-pattern>/DeptBatchDelServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptUpdateServlet</servlet-name>
+    <url-pattern>/DeptUpdateServlet.action</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PostAddServlet</servlet-name>
+    <url-pattern>/PostAddServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserListServlet</servlet-name>
+    <url-pattern>/UserListServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserUnloginServlet</servlet-name>
+    <url-pattern>/UserUnloginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDelServlet</servlet-name>
+    <url-pattern>/UserDelServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserActiveServlet</servlet-name>
+    <url-pattern>/UserActiveServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffFindServlet</servlet-name>
+    <url-pattern>/StaffFindServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostInfoServlet</servlet-name>
+    <url-pattern>/PostInfoServlet.action</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>DeptUpdate2Servlet</servlet-name>
+    <url-pattern>/DeptUpdate2Servlet.action</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>DeptSeleServlet</servlet-name>
+    <url-pattern>/DeptSeleServlet.action</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PostUpdServlet</servlet-name>
+    <url-pattern>/PostUpdServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostUpdateServlet</servlet-name>
+    <url-pattern>/PostUpdateServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffEntryInfoServlet</servlet-name>
+    <url-pattern>/StaffEntryInfoServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostDelServlet</servlet-name>
+    <url-pattern>/PostDelServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostFindServlet</servlet-name>
+    <url-pattern>/PostFindServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostStaffServlet</servlet-name>
+    <url-pattern>/PostStaffServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffCheckServlet</servlet-name>
+    <url-pattern>/StaffCheckServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffProbationServlet</servlet-name>
+    <url-pattern>/StaffProbationServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffFireServlet</servlet-name>
+    <url-pattern>/StaffFireServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepChFindServlet</servlet-name>
+    <url-pattern>/DepChFindServlet.action</url-pattern>
+  </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>UserPageListServlet</servlet-name>
+    <url-pattern>/UserPageListServlet.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>DepchServlet</servlet-name>
+    <url-pattern>/DepchServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepchangeServlet</servlet-name>
+    <url-pattern>/DepchangeServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostchServlet</servlet-name>
+    <url-pattern>/PostchServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostchAddServlet</servlet-name>
+    <url-pattern>/PostchAddServlet.action</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PostChangedServlet</servlet-name>
+    <url-pattern>/PostChangedServlet.action</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>StaffPassedServlet</servlet-name>
+    <url-pattern>/StaffPassedServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffFiredServlet</servlet-name>
+    <url-pattern>/StaffFiredServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepChangedServlet</servlet-name>
+    <url-pattern>/DepChangedServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostchFindServlet</servlet-name>
+    <url-pattern>/PostchFindServlet.action</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>UserAnswerCheckServlet</servlet-name>
+    <url-pattern>/UserAnswerCheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JumpToLogin</servlet-name>
+    <url-pattern>/JumpToLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffMaintainServlet</servlet-name>
+    <url-pattern>/StaffMaintainServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffFireingServlet</servlet-name>
+    <url-pattern>/StaffFireingServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReportDepchServlet</servlet-name>
+    <url-pattern>/ReportDepchServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffReviewServlet</servlet-name>
+    <url-pattern>/StaffReviewServlet.action</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>UserPwdChangeServlet</servlet-name>
+    <url-pattern>/UserPwdChangeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostcfReServlet</servlet-name>
+    <url-pattern>/PostcfReServlet.action</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>Auth</filter-name>
+    <filter-class>com.neusoft.ehr.comm.AuthFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>Auth</filter-name>
+    <url-pattern>/servlet/*</url-pattern>
+  </filter-mapping>
+  <filter>
+    <filter-name>Admin</filter-name>
+    <filter-class>com.neusoft.ehr.comm.AdminFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>Admin</filter-name>
+    <url-pattern>/servlet/admin.jsp</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>Admin</filter-name>
+    <url-pattern>*.do</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>Auth</filter-name>
+    <url-pattern>*.action</url-pattern>
+  </filter-mapping>
+
+
+
+
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

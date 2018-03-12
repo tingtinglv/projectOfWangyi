@@ -1,0 +1,25 @@
+body{
+	padding-top: 10px;
+}
+
+a.accordion-toggle{
+	width:180px;
+	text-decoration: none;
+	background-image: -moz-linear-gradient(top, #ffffff, #e8e8e8);
+	background-image: -ms-linear-gradient(top, #ffffff, #e8e8e8);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e8e8e8));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e8e8e8);
+	background-image: -o-linear-gradient(top, #ffffff, #e8e8e8);
+	background-image: linear-gradient(top, #ffffff, #e8e8e8);
+	background-repeat: repeat-x;
+	
+}
+
+a.accordion-toggle:hover{
+	color: white;
+	text-decoration: none;
+	background: #0088cc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
